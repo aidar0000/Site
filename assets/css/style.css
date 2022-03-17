@@ -914,7 +914,9 @@ hr{
     display: flex;	
     justify-content: center;
 }
+
 /* rev */
+
 .rev_title{
     font-family: 'Montserrat';
     font-weight: 700;
@@ -949,7 +951,9 @@ hr{
 .rev_btn:hover{
     box-shadow: 0 0 20px #180725;
 }
+
 /*be one */
+
 .be_one_wrapper{
     margin-top: 50px;
     margin-bottom: 190px;
@@ -968,7 +972,9 @@ hr{
     margin-left: auto;
     margin-right: auto;
 }
+
 /* centre */
+
 .centre_wrapper{
     margin-top: 50px;
     margin-bottom: 100px;
@@ -1043,7 +1049,9 @@ hr{
 .centre_btn:hover{
     box-shadow: 0 0 20px #402D50;
 }
+
 /* benefit */
+
 .benefit_wrapper{
     margin-bottom: 100px;
 }
@@ -1144,7 +1152,9 @@ hr{
 .benefit_btn_input:hover{
     box-shadow: 0 0 20px #402D50;
 }
+
 /* questions */
+
 .questions_title{
     font-family: 'Montserrat';
     font-style: normal;
@@ -1195,7 +1205,9 @@ hr{
 .colortext16{
     color: #402D50;
 }
+
 /* dir */
+
 .dir_wrapper{
     display: flex;
     margin-bottom: 100px;
@@ -1291,3 +1303,86 @@ hr{
     line-height: 24px;
     color: #000000;
 }
+
+/* mail */
+
+.mail_title{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+}
+.mail_subtitle{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.mail_input{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+}
+.mail_input_content{
+    background: #A9A6A8;
+    border-radius: 20px;
+    font-family: 'Montserrat';  
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    width: 278px;
+    height: 60px;
+    text-align: center;
+    border: none;
+}
+.mail_input_content::placeholder{
+    color: white;
+}
+.mail_content{
+    width: 650px;
+}
+.mail_wrapper{
+    display:flex;
+}
+.mail_input_content1{
+    margin-top: 25px;
+    border: none;
+    background: #A9A6A8;
+    border-radius: 20px;
+    font-family: 'Montserrat';  
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    height: 60px;
+    width: 640px;
+    padding-left: 10px;
+}
+.mail_input_content1::placeholder{
+    color: white;
+}
+.mail_btn{
+    margin-top: 25px;
+    width: 278px;
+    height: 60px;
+    background: #A56492;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    border: none;
+    justify-content: center;
+}
+.mail_btn:hover{
+    box-shadow: 0 0 20px #A9A6A8;
+}
+
+/*  */
+
