@@ -767,6 +767,9 @@ hr{
     line-height: 29px;
     color: #FFFFFF;
 }
+.ex_btn:hover{
+    box-shadow: 0 0 10px #402D50;
+}
 .ex_btn_icon{
     margin-right: 14px;
 }
@@ -867,4 +870,424 @@ hr{
     display: flex;
     margin-top: 20px;
 }
+
 /* style */
+
+.style_title{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+}
+.style_wrapper{
+   margin-bottom: 100px;
+}
+.style_subtitle{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-top: 30px;
+}
+.style_btn{
+    margin-top: 75px;
+    padding: 24px 15px;
+    background-color: #A56492;
+    color: #FFFFFF;
+    border: none;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    background: #A56492;
+    border-radius: 20px;
+}
+.style_btn:hover{
+    box-shadow: 0 0 20px #402D50;
+}
+.style_btns{
+    display: flex;	
+    justify-content: center;
+}
+/* rev */
+.rev_title{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 65px;
+    margin-top: 100px;
+}
+.rev_content{
+    display: flex;
+    justify-content: space-between;
+}
+.rev_btn{
+    height: 186px;
+    width: 325px;
+    background-color: gray;
+    border: none;
+}
+.rev_btn:hover{
+    box-shadow: 0 0 10px #402D50;
+}
+.rev_btn{
+    height: 185px;
+    width: 325px;
+    display: table;
+    background: gray;
+    border: none;
+    margin-bottom: 50px;
+}
+.rev_btn:hover{
+    box-shadow: 0 0 20px #180725;
+}
+/*be one */
+.be_one_wrapper{
+    margin-top: 50px;
+    margin-bottom: 190px;
+}
+.be_one_title{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    color: #000000;
+    margin-top: -210px;
+}
+.be_one_icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* centre */
+.centre_wrapper{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.centre_title{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+}
+.centre_subtitle{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+.centre_input{
+    display: flex;
+    justify-content: space-between;
+}
+.centre_input_name{
+    background: #A9A6A8;
+    border-radius: 20px;
+    font-family: 'Montserrat';  
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    width: 304px;
+    height: 70px;
+    text-align: center;
+    border: none;
+}
+.centre_input_name::placeholder{
+    color: white;
+}
+.centre_input_number{
+    background: #A9A6A8;
+    border-radius: 20px;
+    font-family: 'Montserrat';  
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    width: 304px;
+    height: 70px;
+    text-align: center;
+    border: none;
+}
+.centre_input_number::placeholder{
+    color: white;
+}
+.centre_btn{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    width: 460px;
+    height: 70px;
+    color: white;
+    background-color: #A56492;
+    border: none;
+    border-radius: 20px;
+}
+.centre_input{
+    margin-top: 20px;
+}
+.centre_btn:hover{
+    box-shadow: 0 0 20px #402D50;
+}
+/* benefit */
+.benefit_wrapper{
+    margin-bottom: 100px;
+}
+.benefit_title{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 60px;
+}
+.benefit_btns{
+    display: flex;
+    justify-content: space-between;
+}
+.benefit_btn{
+    height: 260px;
+    width: 260px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: table;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #A56492;
+    border: none;
+    margin-bottom: 50px;
+}
+.benefit_btn:hover{
+    box-shadow: 0 0 20px #180725;
+}
+.benefit_brace{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.benefit_subtitle{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.benefit_input{
+    display: flex;
+    justify-content: space-between;
+}
+.benefit_input_name{
+    background: #A9A6A8;
+    border-radius: 20px;
+    font-family: 'Montserrat';  
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    width: 230px;
+    height: 70px;
+    text-align: center;
+    border: none;
+}
+.benefit_input_name::placeholder{
+    color: white;
+}
+.benefit_input_number{
+    background: #A9A6A8;
+    border-radius: 20px;
+    font-family: 'Montserrat';  
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    width: 230px;
+    height: 70px;
+    text-align: center;
+    border: none;
+}
+.benefit_input_number::placeholder{
+    color: white;
+}
+.benefit_btn_input{
+    width: 460px;
+    font-family: 'Montserrat';  
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    height: 70px;
+    color: white;
+    background-color: #A56492;
+    border: none;
+    border-radius: 20px;
+}
+.benefit_btn_input:hover{
+    box-shadow: 0 0 20px #402D50;
+}
+/* questions */
+.questions_title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 60px;
+}
+.questions_wrapper{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.questions_block{
+    display: flex;
+    margin-bottom: 15px;
+}
+.questions_icon{
+    margin-right: 14px;
+    display: block;
+    height: 60px;
+    width: 60px;
+}
+.questions_question{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: -1px;
+}
+.quections_answer{
+    color: black;
+    margin-left: 14px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+.questions_question2{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.colortext16{
+    color: #402D50;
+}
+/* dir */
+.dir_wrapper{
+    display: flex;
+    margin-bottom: 100px;
+}
+.dir_content{
+    width: 613px;
+}
+.dir_title{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.dir_text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.dir_info{
+    margin-left: 170px;
+}
+.dir_photo{
+    margin-left: 20px;
+}
+.dir_input{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+}
+.dir_input_content{
+    background: #A9A6A8;
+    border-radius: 20px;
+    font-family: 'Montserrat';  
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    width: 278px;
+    height: 60px;
+    text-align: center;
+    border: none;
+}
+.dir_input_content::placeholder{
+    color: white;
+}
+.dir_btns{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.dir_btn1{
+    font-family: 'Montserrat';  
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    background: #A9A6A8;
+    border-radius: 20px;
+    color: white;
+    height: 91px;
+    width: 278px;
+    border: none;
+}
+.dir_btn1:hover{
+    box-shadow: 0 0 10px #A9A6A8;
+}
+.dir_btn2{
+    width: 278px;
+    height: 91px;
+    background: #A56492;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    border: none;
+    justify-content: center;
+}
+.dir_btn2:hover{
+    box-shadow: 0 0 20px #A9A6A8;
+}
+.dir_name{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
