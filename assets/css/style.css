@@ -1384,5 +1384,74 @@ hr{
     box-shadow: 0 0 20px #A9A6A8;
 }
 
-/*  */
+/* footer */
 
+.footer{
+    background: url('../img/photo/footer.png') no-repeat center center / cover;
+    
+}
+.footer_content{
+    justify-content: space-between;
+    display: flex;
+}
+.footer_message{
+    margin-top: 60px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.footer_mes_text{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.footer_messangers{
+    align-items: center;
+    display:flex;
+}
+.footer_icon{
+    margin-right: 8px;
+}
+.footer_mes_text{
+    margin-right: 10px;
+}
+.footer_communication{
+    margin-top: 80px;
+}
+.footer_logo{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.footer_text1{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+.footer_text2{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+.footer_text3{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.footer_chapter{
+    padding-bottom: 30px;
+    margin-top: 30px;
+    display:flex;
+    justify-content: space-between;
+}
